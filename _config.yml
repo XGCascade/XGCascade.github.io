@@ -1,8 +1,20 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Cascade – Advanced Documentation
+description: Architecture, mental models, and execution patterns for Cascade
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://xgcascade.github.io
+baseurl: /cascade
+
+color_scheme: dark
+
+search_enabled: true
+heading_anchors: true
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Cascade on GitHub":
+    - "https://github.com/XGCascade/cascade"
+
+footer_content: >
+  Cascade is an explicit, deterministic runtime validation framework.
+
+nav_sort: case_insensitive
